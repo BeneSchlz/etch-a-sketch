@@ -1,9 +1,10 @@
 const container = document.querySelector("#container");
-
-const content = document.createElement("div");
+ for(i = 0; i < 256; i++){
+    const content = document.createElement("div");
 content.classList.add("content");
-content.textContent = "This is the glorious text-content!";
+content.textContent = "!";
 
 
 container.appendChild(content);
+}
 
